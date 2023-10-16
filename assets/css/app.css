@@ -1,0 +1,949 @@
+body {
+  margin-bottom: 0px !important;
+	color:#000000;
+}
+.medewerkers a, .sliderprojecten a, .medewerkers a:visited, .sliderprojecten a:visited {
+	color:#000000;
+}
+
+div, p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+		color:#000000;
+}
+h1 {
+	font-size: 30px;
+	line-height: 52px;	
+}
+
+.headerplaat p {
+	color:#fff;	
+	font-size: 30px;
+	line-height: 52px;	
+}
+
+h2 {
+	font-size: 30px;
+	line-height:45px;
+	margin-bottom: 30px;
+}
+
+.tekst-vervolg h2 {
+    font-size: 24px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 600;
+}
+
+p {
+	font-size:18px;
+	line-height:40px;
+}
+
+
+.button a {
+text-decoration: none !important;
+}
+
+.diensten p {
+	line-height:32px;	
+}
+
+.tekst-vervolg a, .tekst-vervolg a:visited {
+	color:#000;	
+	text-decoration: underline;
+}
+
+.tekst-vervolg a.button {
+	text-decoration:none;
+	width:100%;
+}
+
+button, .button, button:visited, button:focus , .button:visited, .button:focus  {
+  background-color: #c87129 !important;
+  color: #fff !important;
+  border: 1px solid #c87129 !important;
+  padding-left: 20px !important;
+  padding-right:20px !important;
+  padding-top: 13px !important;
+  padding-bottom: 18px !important;
+  min-height: 44px !important;
+	font-size:18px;
+	font-weight:600;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover, .button:hover {
+  background-color: #fff !important;
+  color: #c87129 !important;
+  border: 1px solid #c87129 !important;
+  padding-left: 20px !important;
+  padding-right:20px !important;
+  padding-top: 13px !important;
+  padding-bottom: 18px !important;
+  min-height: 44px !important;
+	font-size:18px;
+	font-weight:600;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle, .main-navigation.toggled ul {
+    float: right;
+} 
+
+.blok .button, .blok .button:visited, .blok .button:focus  {
+  border: 0px solid #c87129 !important;
+}
+
+.blok .button:hover {
+  border: 0px solid #c87129 !important;
+	color:#fff !important;
+	background-color:#707070 !important;
+}
+
+
+.contactbutton a {
+  background-color: #c87129 !important;
+  color: #fff !important;
+  border: 1px solid #c87129 !important;
+  padding-left: 20px !important;
+  padding-right:20px !important;
+  padding-top: 11px !important;
+  padding-bottom: 10px !important;
+  height: 44px !important;
+	font-size:18px;
+	font-weight:600;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.contactbutton a:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+	text-decoration:none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.newsletter .gform_wrapper .gform_footer .button {
+	width: 100%;
+	height: 54px !important;
+	border-radius: 0px;
+}
+
+.newsletter .gform_wrapper .top_label div.ginput_container {
+    margin-top: 14px !important;
+}
+
+#gform_submit_button_2 {
+height: 54px !important;
+border-radius: 0px;
+border: 1px solid #fff !important;
+color: #fff !important;
+background-color: transparent !important;
+padding-left: 36px !important;
+padding-right: 36px !important;
+	padding-top:8px !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#gform_submit_button_2:hover {
+border: 1px solid #fff !important;
+color: #000 !important;
+background-color: #fff !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+header {
+  padding-top:14px;
+  padding-bottom: 14px;
+  box-shadow: 1px -1px 13px 1px rgba(0,0,0,0.41);
+  -webkit-box-shadow: 1px -1px 13px 1px rgba(0,0,0,0.41);
+  -moz-box-shadow: 1px -1px 13px 1px rgba(0,0,0,0.41);
+}
+.error-404 header {
+	 box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
+#primary-menu {
+  float: right;
+  margin-top: 20px;
+}
+
+#primary-menu li {
+  padding-top:1px;
+  padding-bottom: 3px;
+}
+
+.contactbutton {
+    margin-left: 20px;
+    padding-top: 0px !important;
+}
+
+#primary-menu a, #primary-menu a:visited, #primary-menu a:focus {
+  color:#000;
+}
+
+#primary-menu a:hover {
+	text-decoration:underline;	
+}
+
+.main-navigation ul ul {
+	display:inline-block !important;
+	background-color:#fff;
+} 
+
+.main-navigation ul ul li {
+	border-bottom:1px solid #eee;
+}
+
+.headerplaat {
+  height: 450px;
+  background-color: #ccc;
+  color: #fff;
+  padding-top: 120px;
+	background-size: 100%;}
+
+
+
+
+.homecontent {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.homecontent p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 42px;
+}
+
+.diensten {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.diensten h2 {
+  padding-bottom: 20px;
+}
+
+.diensten .blok {
+  border: 1px solid #707070;
+	text-align:left;
+}
+.diensten .blok figure {
+  margin-top: 0px;
+}
+
+.diensten .blok figure img {
+  height:264px;
+	width:100%;
+	object-fit:cover;
+}
+
+.diensten .blok .tekst {
+	padding-left:30px;
+	padding-right:30px;
+	height:250px;
+}
+
+.diensten .blok .button {
+	width: 100%;
+	margin-bottom: 0px;
+	text-align: left;
+	padding-top: 20px !important;
+	padding-bottom: 10px !important;
+	height: 60px !important;
+}
+
+.projecten {
+  background-image: url('../imgs/projecten_beeldmerk.png');
+  background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 150px;
+}
+.projecten h2 {
+  color: #fff;
+  text-align:center;
+	margin-bottom:50px;
+}
+.tekst-vervolg ul {
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.project img {
+	max-width: 100%;
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.slick-slide {
+	background-color: #fff;
+	height: 390px !important;
+}
+
+.slick-slide img {
+	height: 390px !important;
+	width:100%;
+	object-fit:cover;
+}
+.slick-slide .tekst {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 50px;
+}
+
+.slick-slide .tekst .kop {
+	font-size:24px;
+	line-height:40px;
+	font-weight:600;
+}
+
+.slick-slide .tekst .kop a, .slick-slide .tekst .kop a:visited, .slick-slide .tekst .kop a:focus {
+	color:#000;	
+}
+
+.slick-prev, .slick-next {
+	z-index:9999;	
+	padding:0px !important; 
+	width:60px !important; 
+	height:60px !important; 
+	font-size:0px !important;
+}
+.slick-prev:hover, .slick-next:hover, .slick-prev:focus, .slick-next:focus {
+	padding:0px !important; 
+	width:60px !important; 
+	height:60px !important;  
+	background-color:#707070 !important;
+	border-color:#707070 !important;
+}
+
+.slick-prev:before, .slick-next:before, .slick-prev:hover:before, .slick-next:hover:before { 
+	font-size:32px !important;
+	color:#fff;
+}
+
+.tekst .button {
+	position:absolute;
+	bottom:0;
+	right:0;
+	padding-top: 20px !important;
+	padding-bottom: 10px !important;
+	height: 60px !important;
+	margin-bottom:0px;
+}
+
+.branches {
+	border-bottom: 1px solid #000;	
+}
+
+.branches .tekst {
+	padding-top:80px;
+	padding-right:60px;
+	padding-bottom:90px;
+}
+
+.branches ul {
+	margin-left: 0px;
+	padding-left: 20px;
+	font-size: 20px;
+	line-height: 40px;	
+}
+
+.branches ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.branches ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #c87129; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.branches img {
+	height:100%;
+	width:100%;
+	object-fit: cover;
+}
+
+.branches .tekst .button {
+	position:relative;
+	bottom:auto;
+	right:auto;
+	padding-top: 20px !important;
+	padding-bottom: 10px !important;
+	height: 60px !important;
+	margin-bottom:0px;
+}
+
+.branche {
+	padding: 20px;
+	margin-bottom: 30px;
+	min-height: 272px;
+	border: 1px solid #c87129 !important;
+}
+.branche h2 {
+	margin-bottom:0px;	
+}
+
+
+#breadcrumbs {
+	margin-bottom: 0px;
+margin-top: 20px;
+font-size: 12px !important;
+}
+
+#breadcrumbs a, #breadcrumbs a:visited, #breadcrumbs a:focus  {
+	color:#000;
+}
+
+.tekst-vervolg {
+	padding-bottom:60px;
+	border-bottom:1px solid #000;
+}
+
+.page-template-projecten .tekst-vervolg {
+	border-bottom:0px solid #000;
+}
+
+.extracontent {
+	padding-top:100px;
+}
+.extracontent h3 {
+	font-size:17px;
+	font-weight:700;
+}
+.extracontent p {
+	font-size:17px;
+}
+.projecten-vervolg {
+	padding-top:60px;
+	border-bottom:1px solid #000;
+	padding-bottom:60px;
+}
+
+.projecten-vervolg .project {
+	border:1px solid #c87129;
+	padding:15px;
+	margin-bottom:30px;
+}
+
+.projecten-vervolg .project a, .projecten-vervolg .project a:visited {
+	color:#000;	
+}
+
+.projecten-vervolg .project h4 {
+	font-size:18px;	
+	padding-top:8px;
+}
+
+.projecten-vervolg .project {
+	opacity:1;	
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+	min-height: 486px;
+}
+
+.projecten-vervolg .project:hover {
+	opacity:0.8;	
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.projecten-vervolg .project h3 {
+	min-height: 81px; 
+}
+
+.medewerkers {
+	padding-top:60px;
+	padding-bottom:60px;
+}
+
+.medewerker {
+	border: 1px solid #c87129;
+	padding: 15px;
+	opacity:1;	
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+	margin-top:30px;
+	min-height: 842px;
+}
+.medewerker:hover {
+	opacity:0.8;	
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.medewerker p {
+	font-size:16px;
+	line-height: 30px;
+}
+.medewerker h2 {
+	margin-bottom: 4px;
+	margin-top: 14px;
+}
+
+.contactblok {
+	background-color:#c87129;
+	margin-top:30px;
+	padding:20px;
+	font-size:18px;
+	color:#fff;
+}
+.contactblok h3 {
+	color:#fff !important;
+}
+
+.contactblok .button {
+	background-color:#fff !important;
+	border:1px solid #fff !important;
+	color:#c87129 !important;
+	width:100%;
+	margin-top:20px;
+}
+.contactblok .button:hover {
+	background-color:#c87129 !important;
+	border:1px solid #fff !important;
+	color:#fff !important;
+	width:100%;
+	margin-top:20px;
+}
+
+.newsletter {
+  background-color: #fff;
+      z-index: 999;
+      padding-top: 90px;
+      position: relative;
+      padding-bottom: 90px;
+      text-align: center;
+}
+
+.newsletter .gform_wrapper .gform_body {
+    width: 75% !important;
+    float: left;
+}
+.newsletter .ginput_container_consent {
+	position:absolute;
+}
+
+.newsletter .gform_wrapper .gform_footer {
+    padding: 16px 0 10px 0;
+    margin: 16px 0 0 0;
+    margin-top: -80px;
+    margin-left: 0px;
+    clear: both;
+    width: 25%;
+    float: right;
+}
+
+.newsletter .ginput_container_consent input {
+	width: 5%;
+	float: left;
+	margin-top: 2px;
+	height: 21px;
+	margin-left: 48px;
+}
+
+.gfield_label {
+  display: none !important;
+}
+body .gform_wrapper ul li.gfield {
+  margin-top:2px !important;
+  margin-bottom: 10px !important;
+}
+body .gform_wrapper .top_label div.ginput_container {
+  margin-top:0px !important;
+}
+[type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], textarea {
+  margin-bottom:0px !important;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    border-radius: 0px !important;
+    padding: 5px !important;
+    padding-left: 10px !important;
+    height: 54px !important;
+    box-shadow: none !important;
+}
+textarea {
+    height: 246px !important;
+}
+
+
+
+.gform_wrapper input::placeholder, .gform_wrapper textarea::placeholder {
+  color: #000 !important;
+  padding-left: 10px !important;
+}
+
+.ginput_container_consent {
+	margin:0 auto;
+width: 60%;
+margin-top: 20px !important;
+}
+
+.intro-home .ginput_container_consent {
+	margin:0 auto;
+width: 100%;
+margin-top: 20px !important;
+}
+
+.ginput_container_consent input {
+  width: 5%;
+  float: left;
+  margin-top: 0px;
+  height: 30px;
+}
+.ginput_container_consent label.gfield_consent_label {
+  width: 85%;
+  float: right;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.contactblock {
+      z-index: 999;
+      padding-top: 80px;
+      position: relative;
+      padding-bottom: 80px;
+      text-align: center;
+      color: #fff;
+      background-image: url('../imgs/contact_beeldmerk.png');
+      background-size: cover;
+      color: #fff;
+}
+
+.contactblock h2 {
+  color: #fff;
+}
+.contactblock p {
+  color: #fff;
+}
+
+.contactblock .gfield input, .contactblock .gfield textarea  {
+	border:	0px !important;
+}
+
+.contactblock .gform_wrapper input::placeholder, .contactblock .gform_wrapper textarea::placeholder {
+  color: #000 !important;
+	opacity:1;
+  padding-left: 10px !important;
+}
+
+
+
+.contactblock .ginput_container_consent label.gfield_consent_label {
+    color: #fff !important;
+    text-align: left;
+}
+
+.contactblock .ginput_container_consent {
+    width: 34% !important;
+    text-align: center;
+}
+
+.contactblock .ginput_container_consent input {
+    margin-top: 2px;
+    height: 21px;
+    text-align: right;
+    position: relative;
+	width:21px;
+}
+
+.contactblock .gform_footer {
+	text-align: center;
+}
+
+.footertop {
+	padding-top:60px;
+	padding-bottom:40px;
+	font-size: 16px;
+	line-height: 28px;
+}
+.footertop p {
+		font-size: 16px;
+	line-height: 28px;	
+}
+
+.footertop a, .footertop a:visited, .footertop a:focus, .footertop a:hover {
+	color:#000;	
+}
+.footertop a:hover {
+	text-decoration:underline;	
+}
+
+.footertop ul {
+	margin-left:0px;
+	padding-left:20px;
+	list-style-type: none !important;
+}
+
+.footertop ul li{
+	list-style-type: none !important;
+}
+
+.socials {
+    text-align: right;
+    padding-top: 60px;
+}
+.socials svg {
+	height:32px;
+	width:32px !important;
+	margin-right:5px;
+	margin-left:5px;
+	color:#707070;
+}
+
+.footerbottom {
+	padding-bottom:30px;
+	padding-top:30px;
+	border-top:1px solid #000;
+}
+
+.footerbottom a, .footerbottom a:visited, .footerbottom a:focus, .footerbottom a:hover {
+	color:#000;			
+}
+
+.footerbottom a:hover {
+	text-decoration:underline;	
+}
+
+.footerbottom .janssen {
+	text-align:right;
+}	
+
+.footerbottom .janssen a {
+	font-weight:700;	
+}
+
+/* Column GF */
+
+.gform_wrapper.two-column_wrapper {
+	max-width: 100%;
+}
+
+.gform_wrapper.two-column_wrapper ul.gform_fields,
+.gform_wrapper.two-column_wrapper ul.gform_column li.gsection:first-child {
+	display: none;
+}
+
+.gform_wrapper.two-column_wrapper ul.gform_fields.gform_column {
+	display: block;
+}
+
+.gform_wrapper.two-column_wrapper ul.one-half {
+    margin-left: 2% !important;
+    width: 48%;
+    float: left;
+}
+.gform_wrapper.two-column_wrapper ul.one-half.first {
+	margin-left: 0 !important;
+	width: 48%;
+	margin-right: 2% !important;
+}
+
+.gform_wrapper.two-column_wrapper ul.one-half.first.breed {
+	margin-left: 0 !important;
+	width: 100%;
+	margin-right: 2% !important;
+}
+
+.gform_wrapper.two-column_wrapper ul.one-half.first.breed .ginput_container_consent {
+    width: 30%;
+    color: #fff;
+    margin-top: -10px !important;
+}
+
+#input_3_2,
+#input_3_3,
+#input_3_4 {
+	width: 100%;
+}
+
+.gform_wrapper .gsection {
+	border-bottom: none !important;
+}
+
+.gform_wrapper .top_label li.gfield.gf_right_half+li.gsection {
+	padding: 0 !important;
+}
+
+.gform_wrapper .field_description_below .gfield_description {
+	padding-top:0px !important;
+}
+
+#gform_4 .gfield input, #gform_5 .gfield input{
+	margin-bottom:0px;
+}
+
+
+@media only screen and (max-width: 1075px) {
+
+	.gform_wrapper.two-column_wrapper ul.one-half {
+		width: 100%;
+	}
+
+	.gform_wrapper.two-column_wrapper ul.one-half {
+		margin-left: 0 !important;
+	}
+
+	.gform_wrapper .gsection {
+		display: none !important; /* remove !important if it's not needed */
+	}
+
+	#gform_wrapper_3 li {
+		margin-bottom: 10px;
+	}
+
+}
+
+/* END Column GF */
+
+@media only screen and (max-width: 768px) {
+	#primary-menu {
+		width: 100%;
+		float: left;
+		position: absolute;
+		background-color: #fff;
+		margin-top: 92px;
+		left: 0;
+		box-shadow: 1px 16px 13px 1px rgb(0 0 0 / 41%);
+		-webkit-box-shadow: 1px 16px 13px 1px rgb(0 0 0 / 41%);
+		-moz-box-shadow: 1px 16px 13px 1px rgba(0,0,0,0.41);
+	}	
+}
+	
+@media only screen and (max-width: 1175px) {
+
+	
+	.contactbutton {
+		margin-left: 0px;
+		padding-top: 0px !important;
+	} 
+	
+	.contactbutton a {
+		padding-left: 15px !important;
+	}
+	
+	.gform_wrapper.two-column_wrapper ul.one-half.first {
+		margin-left: 0 !important;
+		width: 100%;
+		margin-right: 0% !important;
+	}
+		.gform_wrapper.two-column_wrapper ul.one-half.last {
+		margin-left: 0 !important;
+		width: 100%;
+		margin-right: 0% !important;
+	}
+	.ginput_container.ginput_container_consent {
+		width: 100% !important;
+    	padding-top: 15px;
+	}
+	.newsletter .ginput_container_consent input {
+		width: auto;
+		float: left;
+		margin-top: 0px;
+		height: auto;
+		margin-left: 0px;
+	}
+	.newsletter .ginput_container_consent label.gfield_consent_label {
+    width: 85%;
+    float: left;
+    font-size: 16px;
+    margin-top: -5px;
+    line-height: 22px;
+	}
+	.newsletter .gform_wrapper .gform_body {
+		width: 100% !important;
+		float: left;
+	}
+	.newsletter .gform_wrapper .gform_footer {
+		padding: 16px 0 10px 0;
+		margin: 16px 0 0 0;
+		margin-top: 0px;
+		margin-left: 0px;
+		clear: both;
+		width: 100%;
+		float: left;
+	}
+	.newsletter .ginput_container_consent {
+		position: relative;
+	}
+	.diensten .blok {
+		margin-bottom:30px;
+	}
+	.branches {
+		background:none !important;	
+	}
+	.branches .tekst .button {
+		position: relative;
+		bottom: auto;
+		right: auto;
+		padding-top: 20px !important;
+		padding-bottom: 18px !important;
+		height: auto !important;
+		margin-bottom: 0px;
+	}
+	.footertop ul {
+		margin-left: 15px;
+		padding-left: 0px;
+		list-style-type: none !important;
+	}
+	.footerbottom .janssen {
+		text-align: left;
+	}
+	.headerplaat {
+		background-size: 100% 100%, cover !important;	
+	}
+}
