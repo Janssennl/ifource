@@ -74,7 +74,7 @@ get_header() ?>
                                 ?>
                                 </a>
 								<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
-								<a href="<?php the_permalink(); ?>" class="button" style="margin-top:30px;">Lees de hele vacature</a>
+								<a href="<?php the_permalink(); ?>" class="button" style="margin-top:30px;">Lees meer</a>
 							</div>
 						</div>
 
