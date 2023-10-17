@@ -20,7 +20,6 @@
 
 	</div>
 </div>
-
 <div class="contactblock">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
@@ -33,17 +32,13 @@
 		</div>
 	</div>
 </div>
-
-
 <div class="footertop">
 	<div class="grid-container">
-		
 		<div class="grid-x grid-padding-x">
 			<div class="large-3 cell">
 				<h3>Contact</h3>
 			</div>
 		</div>
-
 		<div class="grid-x grid-padding-x">
 
 			<div class="large-3 cell">
@@ -78,7 +73,6 @@
 		</div>
 	</div>
 </div>
-
 	<div class="grid-container footerbottom">
 		<div class="grid-x grid-padding-x">
 			<div class="large-2 cell">
@@ -92,7 +86,6 @@
 			</div>
 		</div>
 	</div>
-
 
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/vendor.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/foundation.js"></script>
