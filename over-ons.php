@@ -83,6 +83,14 @@ get_header();
 						else :
 							// Do something...
 						endif; ?>
+							<div class="large-6 cell">
+								<div class="medewerker">
+									<img style="margin-bottom:30px; min-height:362px;" class="vacatureimg" src="<?php bloginfo('template_directory'); ?>/assets/imgs/logo.svg">
+									<h3></h3>
+									<p>Ben jij tekenaar of modelleur en wil je doorgroeien naar engineer of adviseur? Of ben je op zoek naar een stage als werktuigbouwer? Neem dan contact met ons op!</p>
+									<a href="<?php echo esc_url( home_url( '/' ) ); ?>contact" class="button">Neem direct contact op</a>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="large-4 cell">

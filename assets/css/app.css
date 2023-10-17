@@ -312,6 +312,14 @@ header {
 	object-fit: cover;
 }
 
+.project .vacatureimg {
+	max-width: 100%;
+	height: 250px;
+	width: 100%;
+	object-fit:contain;
+}
+}
+
 .slick-slide {
 	background-color: #fff;
 	height: 390px !important;
